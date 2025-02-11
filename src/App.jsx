@@ -1,20 +1,17 @@
 import { useState } from "react";
-
-const gifts = [
-  { id: 1, name: "Relógio Inteligente" },
-  { id: 2, name: "Fone de Ouvido Bluetooth" },
-  { id: 3, name: "Livro: Clean Code" },
-  { id: 4, name: "Camiseta Personalizada" },
-  { id: 5, name: "Caneca Térmica" },
-];
+import giftsData from "./assets/produtos.json";
 
 export default function App() {
-  const [selectedGifts, setSelectedGifts] = useState([]);
+  const [gifts, setGifts] = useState(giftsData);
 
-  const toggleGift = (id) => {
-    setSelectedGifts((prev) =>
-      prev.includes(id) ? prev.filter((giftId) => giftId !== id) : [...prev, id]
-    );
+  const adicionarPresente = (id) => {
+    const novoGifts = gifts.map((gift) => {
+      if (gift.id === id && gift.quantidade_atual < gift.quantidade_maxima) {
+        return { ...gift, quantidade_atual: gift.quantidade_atual + 1 };
+      }
+      return gift;
+    });
+    setGifts(novoGifts);
   };
 
   return (
@@ -26,12 +23,14 @@ export default function App() {
             <li
               key={gift.id}
               className={`flex justify-between items-center p-3 rounded-md cursor-pointer transition ${
-                selectedGifts.includes(gift.id) ? "bg-green-100" : "bg-gray-50"
+                gift.quantidade_atual === gift.quantidade_maxima ? "bg-green-100" : "bg-gray-50"
               } hover:bg-gray-200`}
-              onClick={() => toggleGift(gift.id)}
+              onClick={() => adicionarPresente(gift.id)}
             >
-              <span className="text-lg font-medium text-gray-700">{gift.name}</span>
-              {selectedGifts.includes(gift.id) && (
+              <span className="text-lg font-medium text-gray-700">
+                {gift.nome} - ({gift.quantidade_atual}/{gift.quantidade_maxima})
+              </span>
+              {gift.quantidade_atual === gift.quantidade_maxima && (
                 <span className="text-green-600 font-bold">✓</span>
               )}
             </li>
