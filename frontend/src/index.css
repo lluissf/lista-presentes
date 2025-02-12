@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+body {
+  background-image: url("/background-site.png");
+  background-size: contain; /* Mostra a imagem inteira */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Mantém a imagem fixa no scroll */
+}

@@ -1,0 +1,247 @@
+[
+  {
+    "id": 1,
+    "nome": "Sanduicheira",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 2,
+    "nome": "Batedeira planetária",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 3,
+    "nome": "Liquidificador",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 4,
+    "nome": "Chaleira elétrica",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 5,
+    "nome": "Microondas",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 6,
+    "nome": "Forno",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 7,
+    "nome": "Fogão Cooktop",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 8,
+    "nome": "Ferro de passar roupa",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 9,
+    "nome": "Jogo de talheres (inox)",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 10,
+    "nome": "Ralador/Abridor",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 11,
+    "nome": "Tábua de carne e petisqueira (madeira)",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 12,
+    "nome": "Kit Colher de pau",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 13,
+    "nome": "Escorredor de louça",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 14,
+    "nome": "Escorredor de macarrão",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 15,
+    "nome": "Forma (redonda e retangular inox)",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 16,
+    "nome": "Marinex com tampa",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 17,
+    "nome": "Fruteira",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 18,
+    "nome": "Jarra de suco",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 19,
+    "nome": "Potes variados",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 20,
+    "nome": "Kit de potes herméticos",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 21,
+    "nome": "Bebedouro de água",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 22,
+    "nome": "Kit banheiro lavabo",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 23,
+    "nome": "Kit banheiro",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 24,
+    "nome": "Toalha de banho e rosto",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 2,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 25,
+    "nome": "Cesto de roupas",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 26,
+    "nome": "Roupa de cama",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 2,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 27,
+    "nome": "Edredom",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 28,
+    "nome": "Espelho orgânico com borda preta (100x50)",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 29,
+    "nome": "Mesa de apoio Sala",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 30,
+    "nome": "Varal",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 31,
+    "nome": "Varal de chão",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 32,
+    "nome": "Lixeira",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 2,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 33,
+    "nome": "Cortina Janela grande (cor creme ou bege Liza)",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 34,
+    "nome": "Cortina porta janela (cor creme ou bege Liza)",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "exemplo.jpg"
+  },
+  {
+    "id": 35,
+    "nome": "Tapete para sala (bege 2,00m x 3,00m)",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "exemplo.jpg"
+  }
+]
