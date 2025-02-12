@@ -25,9 +25,7 @@ export default function App() {
 
       // Atualiza o estado local
       const novoGifts = gifts.map((g) =>
-        g.id === id
-          ? { ...g, quantidade_atual: novaQuantidade }
-          : g
+        g.id === id ? { ...g, quantidade_atual: novaQuantidade } : g
       );
       setGifts(novoGifts);
     }
@@ -39,29 +37,43 @@ export default function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gray-100 p-6 flex flex-col items-center">
-      <h1 className="text-4xl font-bold text-gray-800 mb-6">Lista de Presentes</h1>
-      <div className="bg-white shadow-lg rounded-lg p-6 w-full max-w-md">
-        <ul>
-          {gifts.map((gift) => (
-            <li
-              key={gift.id}
-              className={`flex justify-between items-center p-3 rounded-md cursor-pointer transition ${
+    <div className="min-h-screen p-6 flex flex-col items-center">
+      <h1 className="text-4xl font-bold text-green-700 mb-6">
+        Lista de Presentes
+      </h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full max-w-4xl">
+        {gifts.map((gift) => (
+          <div
+            key={gift.id}
+            className={`p-4 rounded-lg shadow-lg transition transform hover:scale-105 cursor-pointer text-center border-2 
+              ${
                 gift.quantidade_atual === gift.quantidade_maxima
-                  ? "bg-green-100"
-                  : "bg-gray-50"
-              } hover:bg-gray-200`}
+                  ? "bg-green-200 border-green-500"
+                  : "bg-white border-gray-300"
+              }`}
+          >
+            <h2 className="text-xl font-semibold text-gray-800 mt-2">
+              {gift.nome}
+            </h2>
+            <p className="text-gray-600">
+              ({gift.quantidade_atual}/{gift.quantidade_maxima})
+            </p>
+            <img
+              src={gift.imagem}
+              alt={gift.nome}
+              className="w-48 h-48 mx-auto mt-4"
+            ></img>
+            <p
+              className="text-green-500 font-bold border-2 border-green-500 m-2 hover:bg-green-500 hover:text-white py-1 px-2 rounded-lg cursor-pointer"
               onClick={() => adicionarPresente(gift.id)}
             >
-              <span className="text-lg font-medium text-gray-700">
-                {gift.nome} - ({gift.quantidade_atual}/{gift.quantidade_maxima})
-              </span>
-              {gift.quantidade_atual === gift.quantidade_maxima && (
-                <span className="text-green-600 font-bold">✓</span>
-              )}
-            </li>
-          ))}
-        </ul>
+              Adicionar Presente
+            </p>
+            {gift.quantidade_atual === gift.quantidade_maxima && (
+              <p className="text-green-600 font-bold mt-2">✓ Completo</p>
+            )}
+          </div>
+        ))}
       </div>
     </div>
   );
