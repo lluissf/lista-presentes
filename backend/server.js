@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const filePath = "./produtos.json";
+const filePath = "./assets/produtos.json";
 
 // Rota para obter os produtos
 app.get("/api/produtos", (req, res) => {
@@ -36,7 +36,9 @@ app.put("/api/produtos/:id", (req, res) => {
 
       fs.writeFile(filePath, JSON.stringify(produtos, null, 2), (err) => {
         if (err) {
-          return res.status(500).json({ error: "Erro ao salvar o arquivo JSON." });
+          return res
+            .status(500)
+            .json({ error: "Erro ao salvar o arquivo JSON." });
         }
         res.json({ success: true, produto });
       });
