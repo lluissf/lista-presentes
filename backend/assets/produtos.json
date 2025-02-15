@@ -4,244 +4,303 @@
     "nome": "Sanduicheira",
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
-    "imagem": "exemplo.jpg"
+    "imagem": "assets/sanduichera.jpg",
+    "link": "https://exemplo.com/comprar-sanduicheira"
   },
   {
     "id": 2,
-    "nome": "Batedeira planetária",
+    "nome": "Kit colheres e facas para cozinhar",
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
-    "imagem": "exemplo.jpg"
+    "imagem": "assets/colher_utensilios.jpg",
+    "link": "assets/colher_utensilios.jpg"
   },
   {
     "id": 3,
-    "nome": "Liquidificador",
+    "nome": "Batedeira planetária",
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
-    "imagem": "exemplo.jpg"
+    "imagem": "assets/batedeira.jpg",
+    "link": "https://exemplo.com/comprar-batedeira-planetaria"
   },
   {
     "id": 4,
-    "nome": "Chaleira elétrica",
+    "nome": "Liquidificador",
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
-    "imagem": "exemplo.jpg"
+    "imagem": "assets/liquidificador.jpg",
+    "link": "https://exemplo.com/comprar-liquidificador"
   },
   {
     "id": 5,
-    "nome": "Microondas",
-    "quantidade_atual": 0,
-    "quantidade_maxima": 1,
-    "imagem": "exemplo.jpg"
-  },
-  {
-    "id": 6,
-    "nome": "Forno",
-    "quantidade_atual": 0,
-    "quantidade_maxima": 1,
-    "imagem": "exemplo.jpg"
-  },
-  {
-    "id": 7,
-    "nome": "Fogão Cooktop",
-    "quantidade_atual": 0,
-    "quantidade_maxima": 1,
-    "imagem": "exemplo.jpg"
-  },
-  {
-    "id": 8,
-    "nome": "Ferro de passar roupa",
-    "quantidade_atual": 0,
-    "quantidade_maxima": 1,
-    "imagem": "exemplo.jpg"
-  },
-  {
-    "id": 9,
-    "nome": "Jogo de talheres (inox)",
-    "quantidade_atual": 0,
-    "quantidade_maxima": 1,
-    "imagem": "exemplo.jpg"
-  },
-  {
-    "id": 10,
-    "nome": "Ralador/Abridor",
-    "quantidade_atual": 0,
-    "quantidade_maxima": 1,
-    "imagem": "exemplo.jpg"
-  },
-  {
-    "id": 11,
-    "nome": "Tábua de carne e petisqueira (madeira)",
-    "quantidade_atual": 0,
-    "quantidade_maxima": 1,
-    "imagem": "exemplo.jpg"
-  },
-  {
-    "id": 12,
-    "nome": "Kit Colher de pau",
-    "quantidade_atual": 0,
-    "quantidade_maxima": 1,
-    "imagem": "exemplo.jpg"
-  },
-  {
-    "id": 13,
-    "nome": "Escorredor de louça",
-    "quantidade_atual": 0,
-    "quantidade_maxima": 1,
-    "imagem": "exemplo.jpg"
-  },
-  {
-    "id": 14,
-    "nome": "Escorredor de macarrão",
-    "quantidade_atual": 0,
-    "quantidade_maxima": 1,
-    "imagem": "exemplo.jpg"
-  },
-  {
-    "id": 15,
-    "nome": "Forma (redonda e retangular inox)",
-    "quantidade_atual": 0,
-    "quantidade_maxima": 1,
-    "imagem": "exemplo.jpg"
-  },
-  {
-    "id": 16,
-    "nome": "Marinex com tampa",
-    "quantidade_atual": 0,
-    "quantidade_maxima": 1,
-    "imagem": "exemplo.jpg"
-  },
-  {
-    "id": 17,
-    "nome": "Fruteira",
-    "quantidade_atual": 0,
-    "quantidade_maxima": 1,
-    "imagem": "exemplo.jpg"
-  },
-  {
-    "id": 18,
-    "nome": "Jarra de suco",
-    "quantidade_atual": 0,
-    "quantidade_maxima": 1,
-    "imagem": "exemplo.jpg"
-  },
-  {
-    "id": 19,
     "nome": "Potes variados",
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
-    "imagem": "exemplo.jpg"
+    "imagem": "assets/potes_variados.jpg",
+    "link": "https://exemplo.com/comprar-potes-variados"
   },
   {
-    "id": 20,
+    "id": 6,
+    "nome": "Chaleira elétrica",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "assets/chaleira.jpg",
+    "link": "https://exemplo.com/comprar-chaleira-eletrica"
+  },
+  {
+    "id": 7,
+    "nome": "Kit bacias e peneiras",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "assets/kit_saladeira.jpg",
+    "link": "https://exemplo.com/comprar-kit-bacias-peneiras"
+  },
+  {
+    "id": 8,
+    "nome": "Microondas (prata espelhado)",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "assets/microondas.jpg",
+    "link": "https://exemplo.com/comprar-microondas"
+  },
+  {
+    "id": 9,
     "nome": "Kit de potes herméticos",
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
-    "imagem": "exemplo.jpg"
+    "imagem": "assets/potes_hermeticos.jpg",
+    "link": "https://exemplo.com/comprar-kit-potes-hermeticos"
   },
   {
-    "id": 21,
-    "nome": "Bebedouro de água",
+    "id": 10,
+    "nome": "Kit pia",
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
-    "imagem": "exemplo.jpg"
+    "imagem": "assets/kit_pia.jpg",
+    "link": "https://exemplo.com/comprar-kit-pia"
   },
   {
-    "id": 22,
+    "id": 11,
+    "nome": "Forno (prata espelhado)",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "assets/forno.jpg",
+    "link": "https://exemplo.com/comprar-forno"
+  },
+  {
+    "id": 12,
+    "nome": "Bebedor de água",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "assets/bebedouro.jpg",
+    "link": "https://exemplo.com/comprar-bebedor-agua"
+  },
+  {
+    "id": 13,
+    "nome": "Fogão Cooktop (5 bocas)",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "assets/fogão.jpg",
+    "link": "https://exemplo.com/comprar-fogao-cooktop"
+  },
+  {
+    "id": 14,
     "nome": "Kit banheiro lavabo",
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
-    "imagem": "exemplo.jpg"
+    "imagem": "assets/kit_lavabo.jpg",
+    "link": "https://exemplo.com/comprar-kit-banheiro-lavabo"
   },
   {
-    "id": 23,
+    "id": 15,
+    "nome": "Ferro de passar roupa",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "assets/ferro.jpg",
+    "link": "https://exemplo.com/comprar-ferro-passar-roupa"
+  },
+  {
+    "id": 16,
     "nome": "Kit banheiro",
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
-    "imagem": "exemplo.jpg"
+    "imagem": "assets/kit_banheiro.jpg",
+    "link": "https://exemplo.com/comprar-kit-banheiro"
   },
   {
-    "id": 24,
-    "nome": "Toalha de banho e rosto",
+    "id": 17,
+    "nome": "Jogo de talheres (inox)",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "assets/kit_talher.jpg",
+    "link": "https://exemplo.com/comprar-jogo-talheres"
+  },
+  {
+    "id": 18,
+    "nome": "Toalha de banho e rosto (2)",
     "quantidade_atual": 0,
     "quantidade_maxima": 2,
-    "imagem": "exemplo.jpg"
+    "imagem": "assets/kit_toalha.jpg",
+    "link": "https://exemplo.com/comprar-toalha-banho-rosto"
   },
   {
-    "id": 25,
+    "id": 19,
+    "nome": "Ralador/Abridor/copo de medidas",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "assets/kit_ralador.jpg",
+    "link": "https://exemplo.com/comprar-balador-abridor"
+  },
+  {
+    "id": 20,
     "nome": "Cesto de roupas",
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
-    "imagem": "exemplo.jpg"
+    "imagem": "assets/cesto.jpg",
+    "link": "https://exemplo.com/comprar-cesto-roupas"
   },
   {
-    "id": 26,
-    "nome": "Roupa de cama",
+    "id": 21,
+    "nome": "Jogo de roupa de cama (2)",
     "quantidade_atual": 0,
     "quantidade_maxima": 2,
-    "imagem": "exemplo.jpg"
+    "imagem": "assets/roupa_de_cama.jpg",
+    "link": "https://exemplo.com/comprar-jogo-roupa-cama"
   },
   {
-    "id": 27,
+    "id": 22,
     "nome": "Edredom",
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
-    "imagem": "exemplo.jpg"
+    "imagem": "assets/edredom.jpg",
+    "link": "https://exemplo.com/comprar-edredom"
+  },
+  {
+    "id": 23,
+    "nome": "Tábua de carne e petisqueira (madeira)",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "assets/tabua.jpg",
+    "link": "https://exemplo.com/comprar-tabua-carne"
+  },
+  {
+    "id": 24,
+    "nome": "Espelho orgânico com borda preta (100 x 50)",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "assets/espelho.jpg",
+    "link": "https://exemplo.com/comprar-espelho-organico"
+  },
+  {
+    "id": 25,
+    "nome": "Mesa de apoio sala",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "assets/mesa.jpg",
+    "link": "https://exemplo.com/comprar-mesa-apoio-sala"
+  },
+  {
+    "id": 26,
+    "nome": "Escorredor de louça",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "assets/escorredor_louca.jpg",
+    "link": "https://exemplo.com/comprar-escorredor-louca"
+  },
+  {
+    "id": 27,
+    "nome": "Kit escorredor (macarrão, arroz, telado)",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "assets/escorredor_macarrao.jpg",
+    "link": "https://exemplo.com/comprar-kit-escorredor"
   },
   {
     "id": 28,
-    "nome": "Espelho orgânico com borda preta (100x50)",
+    "nome": "Kit forma (redonda, retangular, pudim, pizza e pão inox)",
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
-    "imagem": "exemplo.jpg"
+    "imagem": "assets/forma.jpg",
+    "link": "https://exemplo.com/comprar-kit-forma"
   },
   {
     "id": 29,
-    "nome": "Mesa de apoio Sala",
+    "nome": "Kit Marinex com tampa",
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
-    "imagem": "exemplo.jpg"
+    "imagem": "assets/marinex.jpg",
+    "link": "https://exemplo.com/comprar-kit-marinex"
   },
   {
     "id": 30,
-    "nome": "Varal",
+    "nome": "Fruteira",
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
-    "imagem": "exemplo.jpg"
+    "imagem": "assets/fruteira.jpg",
+    "link": "https://exemplo.com/comprar-fruteira"
   },
   {
     "id": 31,
-    "nome": "Varal de chão",
+    "nome": "Kit boleira, jarra açucareira, manteigueira, queijeira",
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
-    "imagem": "exemplo.jpg"
+    "imagem": "assets/kit_boleira.jpg",
+    "link": "https://exemplo.com/comprar-kit-boleira"
   },
   {
     "id": 32,
-    "nome": "Lixeira",
+    "nome": "Varal",
     "quantidade_atual": 0,
-    "quantidade_maxima": 2,
-    "imagem": "exemplo.jpg"
+    "quantidade_maxima": 1,
+    "imagem": "assets/varal.jpg",
+    "link": "https://exemplo.com/comprar-varal"
   },
   {
     "id": 33,
-    "nome": "Cortina Janela grande (cor creme ou bege Liza)",
+    "nome": "Varal de chão",
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
-    "imagem": "exemplo.jpg"
+    "imagem": "assets/varal_de_chao.jpg",
+    "link": "https://exemplo.com/comprar-varal-chao"
   },
   {
     "id": 34,
-    "nome": "Cortina porta janela (cor creme ou bege Liza)",
+    "nome": "Lixeiro (2)",
     "quantidade_atual": 0,
-    "quantidade_maxima": 1,
-    "imagem": "exemplo.jpg"
+    "quantidade_maxima": 2,
+    "imagem": "assets/lixeira.jpg",
+    "link": "https://exemplo.com/comprar-lixeiro"
   },
   {
     "id": 35,
-    "nome": "Tapete para sala (bege 2,00m x 3,00m)",
+    "nome": "Mop de limpeza",
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
-    "imagem": "exemplo.jpg"
+    "imagem": "assets/mop.jpg",
+    "link": "https://exemplo.com/comprar-mop-limpeza"
+  },
+  {
+    "id": 36,
+    "nome": "Cortina janela grande (cor creme ou bege Liza)",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "assets/cortina_cinza.jpg",
+    "link": "https://exemplo.com/comprar-cortina-janela"
+  },
+  {
+    "id": 37,
+    "nome": "Cortina porta janela (cor creme ou bege Liza)",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "assets/cortina_porta.jpg",
+    "link": "https://exemplo.com/comprar-cortina-porta-janela"
+  },
+  {
+    "id": 38,
+    "nome": "Tapete para sala (Bege 2m x 3m)",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "assets/tapete.jpg",
+    "link": "https://exemplo.com/comprar-tapete-sala"
   }
 ]

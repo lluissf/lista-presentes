@@ -61,13 +61,21 @@ export default function App() {
             <img
               src={gift.imagem}
               alt={gift.nome}
-              className="w-48 h-48 mx-auto mt-4"
+              className="w-48 h-48 mx-auto mt-4 mb-4"
             ></img>
+            <a
+              href={gift.link}
+              target="_blank"
+              rel="noreferrer"
+              className="text-blue-500 hover:underline block font-semibold border-2 border-blue-500 p-1 rounded-lg"
+            >
+              Compre aqui
+            </a>
             <p
               className="text-green-500 font-bold border-2 border-green-500 m-2 hover:bg-green-500 hover:text-white py-1 px-2 rounded-lg cursor-pointer"
               onClick={() => adicionarPresente(gift.id)}
             >
-              Adicionar Presente
+              Marcar como comprado
             </p>
             {gift.quantidade_atual === gift.quantidade_maxima && (
               <p className="text-green-600 font-bold mt-2">✓ Completo</p>
