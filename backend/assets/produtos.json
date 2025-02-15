@@ -5,7 +5,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/sanduichera.jpg",
-    "link": "https://exemplo.com/comprar-sanduicheira"
+    "link": ["https://exemplo.com/comprar-sanduicheira"]
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/colher_utensilios.jpg",
-    "link": "assets/colher_utensilios.jpg"
+    "link": ["assets/colher_utensilios.jpg"]
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/batedeira.jpg",
-    "link": "https://exemplo.com/comprar-batedeira-planetaria"
+    "link": ["https://exemplo.com/comprar-batedeira-planetaria"]
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/liquidificador.jpg",
-    "link": "https://exemplo.com/comprar-liquidificador"
+    "link": ["https://exemplo.com/comprar-liquidificador"]
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/potes_variados.jpg",
-    "link": "https://exemplo.com/comprar-potes-variados"
+    "link": ["https://exemplo.com/comprar-potes-variados"]
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/chaleira.jpg",
-    "link": "https://exemplo.com/comprar-chaleira-eletrica"
+    "link": ["https://exemplo.com/comprar-chaleira-eletrica"]
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/kit_saladeira.jpg",
-    "link": "https://exemplo.com/comprar-kit-bacias-peneiras"
+    "link": ["https://br.shp.ee/qf3kLp9", "https://br.shp.ee/wtvPZN1"]
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/microondas.jpg",
-    "link": "https://exemplo.com/comprar-microondas"
+    "link": ["https://exemplo.com/comprar-microondas"]
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/potes_hermeticos.jpg",
-    "link": "https://exemplo.com/comprar-kit-potes-hermeticos"
+    "link": ["https://exemplo.com/comprar-kit-potes-hermeticos"]
   },
   {
     "id": 10,
@@ -77,7 +77,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/kit_pia.jpg",
-    "link": "https://exemplo.com/comprar-kit-pia"
+    "link": ["https://exemplo.com/comprar-kit-pia"]
   },
   {
     "id": 11,
@@ -85,7 +85,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/forno.jpg",
-    "link": "https://exemplo.com/comprar-forno"
+    "link": ["https://exemplo.com/comprar-forno"]
   },
   {
     "id": 12,
@@ -93,7 +93,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/bebedouro.jpg",
-    "link": "https://exemplo.com/comprar-bebedor-agua"
+    "link": ["https://exemplo.com/comprar-bebedor-agua"]
   },
   {
     "id": 13,
@@ -101,7 +101,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/fogão.jpg",
-    "link": "https://exemplo.com/comprar-fogao-cooktop"
+    "link": ["https://exemplo.com/comprar-fogao-cooktop"]
   },
   {
     "id": 14,
@@ -109,7 +109,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/kit_lavabo.jpg",
-    "link": "https://exemplo.com/comprar-kit-banheiro-lavabo"
+    "link": ["https://exemplo.com/comprar-kit-banheiro-lavabo"]
   },
   {
     "id": 15,
@@ -117,7 +117,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/ferro.jpg",
-    "link": "https://exemplo.com/comprar-ferro-passar-roupa"
+    "link": ["https://exemplo.com/comprar-ferro-passar-roupa"]
   },
   {
     "id": 16,
@@ -125,7 +125,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/kit_banheiro.jpg",
-    "link": "https://exemplo.com/comprar-kit-banheiro"
+    "link": ["https://exemplo.com/comprar-kit-banheiro"]
   },
   {
     "id": 17,
@@ -133,7 +133,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/kit_talher.jpg",
-    "link": "https://exemplo.com/comprar-jogo-talheres"
+    "link": ["https://exemplo.com/comprar-jogo-talheres"]
   },
   {
     "id": 18,
@@ -141,7 +141,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 2,
     "imagem": "assets/kit_toalha.jpg",
-    "link": "https://exemplo.com/comprar-toalha-banho-rosto"
+    "link": ["https://exemplo.com/comprar-toalha-banho-rosto"]
   },
   {
     "id": 19,
@@ -149,7 +149,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/kit_ralador.jpg",
-    "link": "https://exemplo.com/comprar-balador-abridor"
+    "link": ["https://exemplo.com/comprar-balador-abridor"]
   },
   {
     "id": 20,
@@ -157,7 +157,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/cesto.jpg",
-    "link": "https://exemplo.com/comprar-cesto-roupas"
+    "link": ["https://exemplo.com/comprar-cesto-roupas"]
   },
   {
     "id": 21,
@@ -165,7 +165,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 2,
     "imagem": "assets/roupa_de_cama.jpg",
-    "link": "https://exemplo.com/comprar-jogo-roupa-cama"
+    "link": ["https://exemplo.com/comprar-jogo-roupa-cama"]
   },
   {
     "id": 22,
@@ -173,7 +173,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/edredom.jpg",
-    "link": "https://exemplo.com/comprar-edredom"
+    "link": ["https://exemplo.com/comprar-edredom"]
   },
   {
     "id": 23,
@@ -181,7 +181,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/tabua.jpg",
-    "link": "https://exemplo.com/comprar-tabua-carne"
+    "link": ["https://exemplo.com/comprar-tabua-carne"]
   },
   {
     "id": 24,
@@ -189,7 +189,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/espelho.jpg",
-    "link": "https://exemplo.com/comprar-espelho-organico"
+    "link": ["https://exemplo.com/comprar-espelho-organico"]
   },
   {
     "id": 25,
@@ -197,7 +197,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/mesa.jpg",
-    "link": "https://exemplo.com/comprar-mesa-apoio-sala"
+    "link": ["https://exemplo.com/comprar-mesa-apoio-sala"]
   },
   {
     "id": 26,
@@ -205,7 +205,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/escorredor_louca.jpg",
-    "link": "https://exemplo.com/comprar-escorredor-louca"
+    "link": ["https://exemplo.com/comprar-escorredor-louca"]
   },
   {
     "id": 27,
@@ -213,7 +213,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/escorredor_macarrao.jpg",
-    "link": "https://exemplo.com/comprar-kit-escorredor"
+    "link": ["https://exemplo.com/comprar-kit-escorredor"]
   },
   {
     "id": 28,
@@ -221,7 +221,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/forma.jpg",
-    "link": "https://exemplo.com/comprar-kit-forma"
+    "link": ["https://exemplo.com/comprar-kit-forma"]
   },
   {
     "id": 29,
@@ -229,7 +229,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/marinex.jpg",
-    "link": "https://exemplo.com/comprar-kit-marinex"
+    "link": ["https://exemplo.com/comprar-kit-marinex"]
   },
   {
     "id": 30,
@@ -237,7 +237,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/fruteira.jpg",
-    "link": "https://exemplo.com/comprar-fruteira"
+    "link": ["https://exemplo.com/comprar-fruteira"]
   },
   {
     "id": 31,
@@ -245,7 +245,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/kit_boleira.jpg",
-    "link": "https://exemplo.com/comprar-kit-boleira"
+    "link": ["https://exemplo.com/comprar-kit-boleira"]
   },
   {
     "id": 32,
@@ -253,7 +253,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/varal.jpg",
-    "link": "https://exemplo.com/comprar-varal"
+    "link": ["https://exemplo.com/comprar-varal"]
   },
   {
     "id": 33,
@@ -261,7 +261,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/varal_de_chao.jpg",
-    "link": "https://exemplo.com/comprar-varal-chao"
+    "link": ["https://exemplo.com/comprar-varal-chao"]
   },
   {
     "id": 34,
@@ -269,7 +269,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 2,
     "imagem": "assets/lixeira.jpg",
-    "link": "https://exemplo.com/comprar-lixeiro"
+    "link": ["https://exemplo.com/comprar-lixeiro"]
   },
   {
     "id": 35,
@@ -277,7 +277,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/mop.jpg",
-    "link": "https://exemplo.com/comprar-mop-limpeza"
+    "link": ["https://exemplo.com/comprar-mop-limpeza"]
   },
   {
     "id": 36,
@@ -285,7 +285,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/cortina_cinza.jpg",
-    "link": "https://exemplo.com/comprar-cortina-janela"
+    "link": ["https://exemplo.com/comprar-cortina-janela"]
   },
   {
     "id": 37,
@@ -293,7 +293,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/cortina_porta.jpg",
-    "link": "https://exemplo.com/comprar-cortina-porta-janela"
+    "link": ["https://exemplo.com/comprar-cortina-porta-janela"]
   },
   {
     "id": 38,
@@ -301,6 +301,6 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/tapete.jpg",
-    "link": "https://exemplo.com/comprar-tapete-sala"
+    "link": ["https://exemplo.com/comprar-tapete-sala"]
   }
 ]
