@@ -5,7 +5,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/sanduichera.jpg",
-    "link": ["https://exemplo.com/comprar-sanduicheira"]
+    "link": ["https://br.shp.ee/EtgkfRp"]
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/colher_utensilios.jpg",
-    "link": ["assets/colher_utensilios.jpg"]
+    "link": ["https://br.shp.ee/pvk1zSE"]
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/batedeira.jpg",
-    "link": ["https://exemplo.com/comprar-batedeira-planetaria"]
+    "link": ["https://br.shp.ee/k6p4TgF"]
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/liquidificador.jpg",
-    "link": ["https://exemplo.com/comprar-liquidificador"]
+    "link": ["https://br.shp.ee/8QNcm4D"]
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/potes_variados.jpg",
-    "link": ["https://exemplo.com/comprar-potes-variados"]
+    "link": ["https://br.shp.ee/cH5yduc"]
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/chaleira.jpg",
-    "link": ["https://exemplo.com/comprar-chaleira-eletrica"]
+    "link": ["https://br.shp.ee/PKit69d"]
   },
   {
     "id": 7,
@@ -61,7 +61,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/microondas.jpg",
-    "link": ["https://exemplo.com/comprar-microondas"]
+    "link": ["https://br.shp.ee/csiThKG"]
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/potes_hermeticos.jpg",
-    "link": ["https://exemplo.com/comprar-kit-potes-hermeticos"]
+    "link": ["https://br.shp.ee/vA7c3SA"]
   },
   {
     "id": 10,
@@ -77,7 +77,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/kit_pia.jpg",
-    "link": ["https://exemplo.com/comprar-kit-pia"]
+    "link": ["https://br.shp.ee/ajmEV9j"]
   },
   {
     "id": 11,
@@ -85,15 +85,15 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/forno.jpg",
-    "link": ["https://exemplo.com/comprar-forno"]
+    "link": ["https://br.shp.ee/u4FBywo"]
   },
   {
     "id": 12,
-    "nome": "Bebedor de água",
+    "nome": "Bebedouro de água",
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/bebedouro.jpg",
-    "link": ["https://exemplo.com/comprar-bebedor-agua"]
+    "link": ["https://br.shp.ee/ez8y6ae"]
   },
   {
     "id": 13,
@@ -101,7 +101,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/fogão.jpg",
-    "link": ["https://exemplo.com/comprar-fogao-cooktop"]
+    "link": ["https://br.shp.ee/XPE2qQt"]
   },
   {
     "id": 14,
@@ -109,7 +109,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/kit_lavabo.jpg",
-    "link": ["https://exemplo.com/comprar-kit-banheiro-lavabo"]
+    "link": ["https://br.shp.ee/MKsrLoG"]
   },
   {
     "id": 15,
@@ -117,7 +117,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/ferro.jpg",
-    "link": ["https://exemplo.com/comprar-ferro-passar-roupa"]
+    "link": ["https://br.shp.ee/2xzfLQc"]
   },
   {
     "id": 16,
@@ -125,7 +125,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/kit_banheiro.jpg",
-    "link": ["https://exemplo.com/comprar-kit-banheiro"]
+    "link": ["https://br.shp.ee/S8iFfAa", "https://br.shp.ee/eXJbEUk"]
   },
   {
     "id": 17,
@@ -133,7 +133,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/kit_talher.jpg",
-    "link": ["https://exemplo.com/comprar-jogo-talheres"]
+    "link": ["https://br.shp.ee/JejkM7K"]
   },
   {
     "id": 18,
@@ -141,7 +141,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 2,
     "imagem": "assets/kit_toalha.jpg",
-    "link": ["https://exemplo.com/comprar-toalha-banho-rosto"]
+    "link": ["https://br.shp.ee/MrHjGCs"]
   },
   {
     "id": 19,
@@ -149,7 +149,11 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/kit_ralador.jpg",
-    "link": ["https://exemplo.com/comprar-balador-abridor"]
+    "link": [
+      "https://br.shp.ee/qzbG4Ef",
+      "https://br.shp.ee/r8jTR2u",
+      "https://br.shp.ee/MbCTyDw "
+    ]
   },
   {
     "id": 20,
@@ -157,7 +161,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/cesto.jpg",
-    "link": ["https://exemplo.com/comprar-cesto-roupas"]
+    "link": ["https://br.shp.ee/2iD3ejM"]
   },
   {
     "id": 21,
@@ -165,7 +169,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 2,
     "imagem": "assets/roupa_de_cama.jpg",
-    "link": ["https://exemplo.com/comprar-jogo-roupa-cama"]
+    "link": ["https://br.shp.ee/CGYrzur"]
   },
   {
     "id": 22,
@@ -173,7 +177,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/edredom.jpg",
-    "link": ["https://exemplo.com/comprar-edredom"]
+    "link": ["https://br.shp.ee/Ln29HC1"]
   },
   {
     "id": 23,
@@ -181,7 +185,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/tabua.jpg",
-    "link": ["https://exemplo.com/comprar-tabua-carne"]
+    "link": ["https://br.shp.ee/Xmd9BrR", "https://br.shp.ee/2BCrDMw"]
   },
   {
     "id": 24,
@@ -189,7 +193,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/espelho.jpg",
-    "link": ["https://exemplo.com/comprar-espelho-organico"]
+    "link": ["https://br.shp.ee/UMDWpSA"]
   },
   {
     "id": 25,
@@ -197,7 +201,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/mesa.jpg",
-    "link": ["https://exemplo.com/comprar-mesa-apoio-sala"]
+    "link": ["https://br.shp.ee/mhoQ4TB"]
   },
   {
     "id": 26,
@@ -213,7 +217,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/escorredor_macarrao.jpg",
-    "link": ["https://exemplo.com/comprar-kit-escorredor"]
+    "link": ["https://br.shp.ee/RaC8u4M"]
   },
   {
     "id": 28,
@@ -221,7 +225,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/forma.jpg",
-    "link": ["https://exemplo.com/comprar-kit-forma"]
+    "link": ["https://br.shp.ee/GJuV8PN"]
   },
   {
     "id": 29,
@@ -229,7 +233,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/marinex.jpg",
-    "link": ["https://exemplo.com/comprar-kit-marinex"]
+    "link": ["https://br.shp.ee/cMmzPd1"]
   },
   {
     "id": 30,
@@ -237,7 +241,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/fruteira.jpg",
-    "link": ["https://exemplo.com/comprar-fruteira"]
+    "link": ["https://br.shp.ee/XfhwgQD"]
   },
   {
     "id": 31,
@@ -245,7 +249,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/kit_boleira.jpg",
-    "link": ["https://exemplo.com/comprar-kit-boleira"]
+    "link": ["https://br.shp.ee/dhjxPVx"]
   },
   {
     "id": 32,
@@ -253,7 +257,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/varal.jpg",
-    "link": ["https://exemplo.com/comprar-varal"]
+    "link": ["https://br.shp.ee/gdcHrX2"]
   },
   {
     "id": 33,
@@ -261,7 +265,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/varal_de_chao.jpg",
-    "link": ["https://exemplo.com/comprar-varal-chao"]
+    "link": ["https://br.shp.ee/WvZKGX1"]
   },
   {
     "id": 34,
@@ -269,7 +273,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 2,
     "imagem": "assets/lixeira.jpg",
-    "link": ["https://exemplo.com/comprar-lixeiro"]
+    "link": ["https://br.shp.ee/24mmBD6"]
   },
   {
     "id": 35,
@@ -277,7 +281,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/mop.jpg",
-    "link": ["https://exemplo.com/comprar-mop-limpeza"]
+    "link": ["https://br.shp.ee/YVJE9fp"]
   },
   {
     "id": 36,
@@ -285,7 +289,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/cortina_cinza.jpg",
-    "link": ["https://exemplo.com/comprar-cortina-janela"]
+    "link": ["https://br.shp.ee/aWM3FCF"]
   },
   {
     "id": 37,
@@ -293,7 +297,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/cortina_porta.jpg",
-    "link": ["https://exemplo.com/comprar-cortina-porta-janela"]
+    "link": ["https://br.shp.ee/KrgpBrQ"]
   },
   {
     "id": 38,
@@ -301,6 +305,6 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/tapete.jpg",
-    "link": ["https://exemplo.com/comprar-tapete-sala"]
+    "link": ["https://br.shp.ee/GGuJ2hD"]
   }
 ]
