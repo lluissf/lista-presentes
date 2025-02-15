@@ -7,7 +7,25 @@ export default function App() {
   const buscarProdutos = async () => {
     const resposta = await fetch("http://localhost:5000/api/produtos");
     const dados = await resposta.json();
-    setGifts(dados);
+
+    // Garantir que todos os itens tenham um campo `links` definido como array
+    const dadosComLinks = dados.map((item) => ({
+      ...item,
+      links: item.links || [], // Define como array vazio se `links` for undefined
+    }));
+
+    setGifts(dadosComLinks);
+  };
+
+  // Função para abrir múltiplos sites
+  const abrirSites = (urls) => {
+    if (Array.isArray(urls)) {
+      urls.forEach((url) => {
+        window.open(url, "_blank");
+      });
+    } else {
+      console.error("O campo 'links' não é um array válido:", urls);
+    }
   };
 
   // Atualizar quantidade no backend
@@ -61,28 +79,42 @@ export default function App() {
             <img
               src={gift.imagem}
               alt={gift.nome}
-              className="w-48 h-48 mx-auto mt-4 mb-4"
-            ></img>
-            <a
-              href={gift.link}
-              target="_blank"
-              rel="noreferrer"
-              className="text-blue-500 hover:underline block font-semibold border-2 border-blue-500 p-1 rounded-lg"
+              className="w-48 h-48 object-cover mx-auto mt-4 mb-4"
+            />
+            <button
+              onClick={() => abrirSites(gift.link)}
+              className="text-blue-500 font-bold border-2 border-blue-500 m-2 hover:bg-blue-500 hover:text-white py-1 px-2 rounded-lg cursor-pointer w-full"
             >
               Compre aqui
-            </a>
-            <p
-              className="text-green-500 font-bold border-2 border-green-500 m-2 hover:bg-green-500 hover:text-white py-1 px-2 rounded-lg cursor-pointer"
+            </button>
+            <button
+              className="text-green-500 font-bold border-2 border-green-500 m-2 hover:bg-green-500 hover:text-white py-1 px-2 rounded-lg cursor-pointer w-full"
               onClick={() => adicionarPresente(gift.id)}
             >
               Marcar como comprado
-            </p>
+            </button>
             {gift.quantidade_atual === gift.quantidade_maxima && (
               <p className="text-green-600 font-bold mt-2">✓ Completo</p>
             )}
           </div>
         ))}
       </div>
+      <footer className="mt-6 text-white text-center bg-black p-1 w-full fixed bottom-0">
+        Desenvolvido por:{" "}
+        <a
+          href="https://www.github.com/henrique-furtado47"
+          className="text-blue-500 hover:underline mr-2"
+        >
+          Henrique Furtado
+        </a>
+        {""}e{" "}
+        <a
+          href="https://www.github.com/lluissf"
+          className="text-blue-500 hover:underline"
+        >
+          Luis Felipe
+        </a>
+      </footer>
     </div>
   );
 }
