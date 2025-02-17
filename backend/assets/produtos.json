@@ -12,7 +12,7 @@
   {
     "id": 2,
     "nome": "Kit colheres e facas para cozinhar",
-    "quantidade_atual": 1,
+    "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/colher_utensilios.jpg",
     "link": [
@@ -42,7 +42,7 @@
   {
     "id": 5,
     "nome": "Potes variados",
-    "quantidade_atual": 1,
+    "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/potes_variados.jpg",
     "link": [
