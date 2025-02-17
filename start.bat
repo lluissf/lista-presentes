@@ -1,0 +1,1 @@
+wt -d "frontend" cmd /k "yarn dev" ; split-pane -H -d "backend" cmd /k "npm start"
