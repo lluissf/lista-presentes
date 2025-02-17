@@ -2,7 +2,7 @@ const express = require("express");
 const fs = require("fs");
 const router = express.Router();
 
-const filePath = "../assets/produtos.json";
+const filePath = "./assets/produtos.json";
 
 router.get("/", (req, res) => {
   fs.readFile(filePath, "utf-8", (err, data) => {
