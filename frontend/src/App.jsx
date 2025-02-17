@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 export default function App() {
   const [gifts, setGifts] = useState([]);
-  const api = "https://lista-presentes-production.up.railway.app:5000/"
+  const api = "https://lista-presentes-production.up.railway.app/"
   // Buscar produtos do backend
   const buscarProdutos = async () => {
     const resposta = await fetch(api+"api/produtos");
