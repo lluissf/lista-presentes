@@ -27,27 +27,34 @@ export default function App() {
       console.error("O campo 'links' não é um array válido:", urls);
     }
   };
-
-  // Atualizar quantidade no backend
   const adicionarPresente = async (id) => {
     const gift = gifts.find((g) => g.id === id);
     if (gift.quantidade_atual < gift.quantidade_maxima) {
       const novaQuantidade = gift.quantidade_atual + 1;
-
-      // Requisição para atualizar no backend
-      await fetch(`${api}/api/produtos/${id}`, {
-        method: "PUT",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ quantidade_atual: novaQuantidade }),
-      });
-
-      // Atualiza o estado local
-      const novoGifts = gifts.map((g) =>
-        g.id === id ? { ...g, quantidade_atual: novaQuantidade } : g
-      );
-      setGifts(novoGifts);
+  
+      try {
+        const response = await fetch(`${api}/api/produtos/${id}`, {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ quantidade_atual: novaQuantidade }),
+        });
+  
+        if (!response.ok) {
+          throw new Error("Erro ao atualizar quantidade");
+        }
+  
+        // Atualiza o estado local
+        const novoGifts = gifts.map((g) =>
+          g.id === id ? { ...g, quantidade_atual: novaQuantidade } : g
+        );
+        setGifts(novoGifts);
+      } catch (error) {
+        console.error(error);
+      }
     }
   };
+  
+   
 
   // Carregar produtos ao carregar o componente
   useEffect(() => {
