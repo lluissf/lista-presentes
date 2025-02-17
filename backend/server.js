@@ -4,7 +4,10 @@ const cors = require("cors");
 const app = express();
 
 app.use(cors());
-app.use(express.json());
+app.use(express.json()); 
+app.use(cors({
+  origin: 'https://lista-presentes-dusky.vercel.app'  // Altere para a URL final do frontend
+}));
 
 const filePath = "./assets/produtos.json";
 
@@ -48,7 +51,7 @@ app.put("/api/produtos/:id", (req, res) => {
   });
 });
 
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`Servidor rodando em http://localhost:${PORT}`);
+  console.log(`Servidor rodando em  ${PORT}`);
 });

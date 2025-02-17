@@ -5,15 +5,19 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/sanduichera.jpg",
-    "link": ["https://br.shp.ee/EtgkfRp"]
+    "link": [
+      "https://br.shp.ee/EtgkfRp"
+    ]
   },
   {
     "id": 2,
     "nome": "Kit colheres e facas para cozinhar",
-    "quantidade_atual": 0,
+    "quantidade_atual": 1,
     "quantidade_maxima": 1,
     "imagem": "assets/colher_utensilios.jpg",
-    "link": ["https://br.shp.ee/pvk1zSE"]
+    "link": [
+      "https://br.shp.ee/pvk1zSE"
+    ]
   },
   {
     "id": 3,
@@ -21,7 +25,9 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/batedeira.jpg",
-    "link": ["https://br.shp.ee/k6p4TgF"]
+    "link": [
+      "https://br.shp.ee/k6p4TgF"
+    ]
   },
   {
     "id": 4,
@@ -29,15 +35,19 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/liquidificador.jpg",
-    "link": ["https://br.shp.ee/8QNcm4D"]
+    "link": [
+      "https://br.shp.ee/8QNcm4D"
+    ]
   },
   {
     "id": 5,
     "nome": "Potes variados",
-    "quantidade_atual": 0,
+    "quantidade_atual": 1,
     "quantidade_maxima": 1,
     "imagem": "assets/potes_variados.jpg",
-    "link": ["https://br.shp.ee/cH5yduc"]
+    "link": [
+      "https://br.shp.ee/cH5yduc"
+    ]
   },
   {
     "id": 6,
@@ -45,7 +55,9 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/chaleira.jpg",
-    "link": ["https://br.shp.ee/PKit69d"]
+    "link": [
+      "https://br.shp.ee/PKit69d"
+    ]
   },
   {
     "id": 7,
@@ -53,7 +65,10 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/kit_saladeira.jpg",
-    "link": ["https://br.shp.ee/qf3kLp9", "https://br.shp.ee/wtvPZN1"]
+    "link": [
+      "https://br.shp.ee/qf3kLp9",
+      "https://br.shp.ee/wtvPZN1"
+    ]
   },
   {
     "id": 8,
@@ -61,7 +76,9 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/microondas.jpg",
-    "link": ["https://br.shp.ee/csiThKG"]
+    "link": [
+      "https://br.shp.ee/csiThKG"
+    ]
   },
   {
     "id": 9,
@@ -69,7 +86,9 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/potes_hermeticos.jpg",
-    "link": ["https://br.shp.ee/vA7c3SA"]
+    "link": [
+      "https://br.shp.ee/vA7c3SA"
+    ]
   },
   {
     "id": 10,
@@ -77,7 +96,9 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/kit_pia.jpg",
-    "link": ["https://br.shp.ee/ajmEV9j"]
+    "link": [
+      "https://br.shp.ee/ajmEV9j"
+    ]
   },
   {
     "id": 11,
@@ -85,7 +106,9 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/forno.jpg",
-    "link": ["https://br.shp.ee/u4FBywo"]
+    "link": [
+      "https://br.shp.ee/u4FBywo"
+    ]
   },
   {
     "id": 12,
@@ -93,7 +116,9 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/bebedouro.jpg",
-    "link": ["https://br.shp.ee/ez8y6ae"]
+    "link": [
+      "https://br.shp.ee/ez8y6ae"
+    ]
   },
   {
     "id": 13,
@@ -101,7 +126,9 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/fogão.jpg",
-    "link": ["https://br.shp.ee/XPE2qQt"]
+    "link": [
+      "https://br.shp.ee/XPE2qQt"
+    ]
   },
   {
     "id": 14,
@@ -109,7 +136,9 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/kit_lavabo.jpg",
-    "link": ["https://br.shp.ee/MKsrLoG"]
+    "link": [
+      "https://br.shp.ee/MKsrLoG"
+    ]
   },
   {
     "id": 15,
@@ -117,7 +146,9 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/ferro.jpg",
-    "link": ["https://br.shp.ee/2xzfLQc"]
+    "link": [
+      "https://br.shp.ee/2xzfLQc"
+    ]
   },
   {
     "id": 16,
@@ -125,7 +156,10 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/kit_banheiro.jpg",
-    "link": ["https://br.shp.ee/S8iFfAa", "https://br.shp.ee/eXJbEUk"]
+    "link": [
+      "https://br.shp.ee/S8iFfAa",
+      "https://br.shp.ee/eXJbEUk"
+    ]
   },
   {
     "id": 17,
@@ -133,7 +167,9 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/kit_talher.jpg",
-    "link": ["https://br.shp.ee/JejkM7K"]
+    "link": [
+      "https://br.shp.ee/JejkM7K"
+    ]
   },
   {
     "id": 18,
@@ -141,7 +177,9 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 2,
     "imagem": "assets/kit_toalha.jpg",
-    "link": ["https://br.shp.ee/MrHjGCs"]
+    "link": [
+      "https://br.shp.ee/MrHjGCs"
+    ]
   },
   {
     "id": 19,
@@ -161,7 +199,9 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/cesto.jpg",
-    "link": ["https://br.shp.ee/2iD3ejM"]
+    "link": [
+      "https://br.shp.ee/2iD3ejM"
+    ]
   },
   {
     "id": 21,
@@ -169,7 +209,9 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 2,
     "imagem": "assets/roupa_de_cama.jpg",
-    "link": ["https://br.shp.ee/CGYrzur"]
+    "link": [
+      "https://br.shp.ee/CGYrzur"
+    ]
   },
   {
     "id": 22,
@@ -177,7 +219,9 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/edredom.jpg",
-    "link": ["https://br.shp.ee/Ln29HC1"]
+    "link": [
+      "https://br.shp.ee/Ln29HC1"
+    ]
   },
   {
     "id": 23,
@@ -185,7 +229,10 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/tabua.jpg",
-    "link": ["https://br.shp.ee/Xmd9BrR", "https://br.shp.ee/2BCrDMw"]
+    "link": [
+      "https://br.shp.ee/Xmd9BrR",
+      "https://br.shp.ee/2BCrDMw"
+    ]
   },
   {
     "id": 24,
@@ -193,7 +240,9 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/espelho.jpg",
-    "link": ["https://br.shp.ee/UMDWpSA"]
+    "link": [
+      "https://br.shp.ee/UMDWpSA"
+    ]
   },
   {
     "id": 25,
@@ -201,7 +250,9 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/mesa.jpg",
-    "link": ["https://br.shp.ee/mhoQ4TB"]
+    "link": [
+      "https://br.shp.ee/mhoQ4TB"
+    ]
   },
   {
     "id": 26,
@@ -209,7 +260,9 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/escorredor_louca.jpg",
-    "link": ["https://exemplo.com/comprar-escorredor-louca"]
+    "link": [
+      "https://exemplo.com/comprar-escorredor-louca"
+    ]
   },
   {
     "id": 27,
@@ -217,7 +270,9 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/escorredor_macarrao.jpg",
-    "link": ["https://br.shp.ee/RaC8u4M"]
+    "link": [
+      "https://br.shp.ee/RaC8u4M"
+    ]
   },
   {
     "id": 28,
@@ -225,7 +280,9 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/forma.jpg",
-    "link": ["https://br.shp.ee/GJuV8PN"]
+    "link": [
+      "https://br.shp.ee/GJuV8PN"
+    ]
   },
   {
     "id": 29,
@@ -233,7 +290,9 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/marinex.jpg",
-    "link": ["https://br.shp.ee/cMmzPd1"]
+    "link": [
+      "https://br.shp.ee/cMmzPd1"
+    ]
   },
   {
     "id": 30,
@@ -241,7 +300,9 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/fruteira.jpg",
-    "link": ["https://br.shp.ee/XfhwgQD"]
+    "link": [
+      "https://br.shp.ee/XfhwgQD"
+    ]
   },
   {
     "id": 31,
@@ -249,7 +310,9 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/kit_boleira.jpg",
-    "link": ["https://br.shp.ee/dhjxPVx"]
+    "link": [
+      "https://br.shp.ee/dhjxPVx"
+    ]
   },
   {
     "id": 32,
@@ -257,7 +320,9 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/varal.jpg",
-    "link": ["https://br.shp.ee/gdcHrX2"]
+    "link": [
+      "https://br.shp.ee/gdcHrX2"
+    ]
   },
   {
     "id": 33,
@@ -265,7 +330,9 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/varal_de_chao.jpg",
-    "link": ["https://br.shp.ee/WvZKGX1"]
+    "link": [
+      "https://br.shp.ee/WvZKGX1"
+    ]
   },
   {
     "id": 34,
@@ -273,7 +340,9 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 2,
     "imagem": "assets/lixeira.jpg",
-    "link": ["https://br.shp.ee/24mmBD6"]
+    "link": [
+      "https://br.shp.ee/24mmBD6"
+    ]
   },
   {
     "id": 35,
@@ -281,7 +350,9 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/mop.jpg",
-    "link": ["https://br.shp.ee/YVJE9fp"]
+    "link": [
+      "https://br.shp.ee/YVJE9fp"
+    ]
   },
   {
     "id": 36,
@@ -289,7 +360,9 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/cortina_cinza.jpg",
-    "link": ["https://br.shp.ee/aWM3FCF"]
+    "link": [
+      "https://br.shp.ee/aWM3FCF"
+    ]
   },
   {
     "id": 37,
@@ -297,7 +370,9 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/cortina_porta.jpg",
-    "link": ["https://br.shp.ee/KrgpBrQ"]
+    "link": [
+      "https://br.shp.ee/KrgpBrQ"
+    ]
   },
   {
     "id": 38,
@@ -305,6 +380,8 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/tapete.jpg",
-    "link": ["https://br.shp.ee/GGuJ2hD"]
+    "link": [
+      "https://br.shp.ee/GGuJ2hD"
+    ]
   }
 ]
