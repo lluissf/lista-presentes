@@ -14,6 +14,7 @@ router.get("/", (req, res) => {
 });
 
 router.put("/:id", (req, res) => {
+  console.log("Entrei aqui para trocar o valor do JSON")
   const id = parseInt(req.params.id);
   const { quantidade_atual } = req.body;
 
@@ -32,6 +33,7 @@ router.put("/:id", (req, res) => {
         if (err) {
           return res.status(500).json({ error: "Erro ao salvar o arquivo JSON." });
         }
+        console.log("Produto atualizado:", produto);
         res.json({ success: true, produto });
       });
     } else {
