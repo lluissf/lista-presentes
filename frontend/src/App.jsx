@@ -2,10 +2,10 @@ import { useState, useEffect } from "react";
 
 export default function App() {
   const [gifts, setGifts] = useState([]);
-
+  const api = "https://lista-presentes-production.up.railway.app:5000/"
   // Buscar produtos do backend
   const buscarProdutos = async () => {
-    const resposta = await fetch("http://localhost:5000/api/produtos");
+    const resposta = await fetch(api+"api/produtos");
     const dados = await resposta.json();
 
     // Garantir que todos os itens tenham um campo `links` definido como array
@@ -35,7 +35,7 @@ export default function App() {
       const novaQuantidade = gift.quantidade_atual + 1;
 
       // Requisição para atualizar no backend
-      await fetch(`http://localhost:5000/api/produtos/${id}`, {
+      await fetch(`${api}/api/produtos/${id}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ quantidade_atual: novaQuantidade }),
