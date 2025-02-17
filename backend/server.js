@@ -10,6 +10,9 @@ app.use(cors({
 }));
 
 const filePath = "./assets/produtos.json";
+app.get('/', (req, res) => {
+  res.send('Servidor funcionando! 🚀');
+});
 
 // Rota para obter os produtos
 app.get("/api/produtos", (req, res) => {
@@ -55,3 +58,4 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Servidor rodando em  ${PORT}`);
 });
+
