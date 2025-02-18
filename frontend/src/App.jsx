@@ -64,7 +64,7 @@ export default function App() {
   return (
     <div className="min-h-screen p-6 flex flex-col items-center">
       <h1 className="text-4xl font-bold text-green-700 mb-6 text-center bg-white">
-        Bem vindo à Lista de Presentes para o chá de
+        Bem vindo à Lista de Sugestões de Presentes
       </h1>
       <h1 className="text-5xl font-bold text-green-700 mb-6 bg-white">
         Letícia e Luian
