@@ -121,11 +121,11 @@
   },
   {
     "id": 16,
-    "nome": "Kit banheiro",
+    "nome": "Kit chuveiro",
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
-    "imagem": "assets/kit_banheiro.jpg",
-    "link": ["https://br.shp.ee/S8iFfAa", "https://br.shp.ee/eXJbEUk"]
+    "imagem": "assets/kit_chuveiro.jpg",
+    "link": ["https://br.shp.ee/S8iFfAa"]
   },
   {
     "id": 17,
@@ -205,7 +205,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/escorredor_louca.jpg",
-    "link": ["https://exemplo.com/comprar-escorredor-louca"]
+    "link": ["https://br.shp.ee/NyFCxA7"]
   },
   {
     "id": 27,
@@ -326,5 +326,13 @@
     "quantidade_maxima": 1,
     "imagem": "assets/kit_peneiras.jpg",
     "link": ["https://br.shp.ee/qf3kLp9"]
+  },
+  {
+    "id": 42,
+    "nome": "Kit banheiro",
+    "quantidade_atual": 0,
+    "quantidade_maxima": 1,
+    "imagem": "assets/kit_banheiro.jpg",
+    "link": ["https://br.shp.ee/eXJbEUk"]
   }
 ]
