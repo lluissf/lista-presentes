@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
-
+import {localhost}  from '../../config.json' ;
 export default function App() {
   const [gifts, setGifts] = useState([]);
-  const api = "https://lista-presentes-production.up.railway.app"
+  console.log(localhost);
+  const api = localhost ? "http://localhost:5000" : "https://lista-presentes-production.up.railway.app";
   // Buscar produtos do backend
   const buscarProdutos = async () => {
     const resposta = await fetch(api+"/api/produtos");
