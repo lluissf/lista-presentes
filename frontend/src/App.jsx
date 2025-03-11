@@ -21,7 +21,7 @@ export default function App() {
     setGifts(dadosComLinks);
   };
   const enviarMensagemWhatsapp = (produto) => {
-    const numero = "5547984223428";
+    const numero = "5547996837826";
     const mensagem = `Olá! Gostaria de comprar o presente "${
       produto.nome
     }" para o enxoval. Poderia me enviar mais informações?\n\nLink do presente: ${produto.link.join(
