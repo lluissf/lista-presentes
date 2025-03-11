@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { localhost } from "../../backend/config.json";
 import { FaWhatsapp, FaCartArrowDown } from "react-icons/fa";
-
+// Alteração para rodar a instância.
 export default function App() {
   const [gifts, setGifts] = useState([]);
   console.log(localhost);
