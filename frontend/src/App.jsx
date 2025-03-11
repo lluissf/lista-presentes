@@ -1,12 +1,16 @@
 import { useState, useEffect } from "react";
-import {localhost}  from '../../backend/config.json' ;
+import { localhost } from "../../backend/config.json";
+import { FaWhatsapp, FaCartArrowDown } from "react-icons/fa";
+
 export default function App() {
   const [gifts, setGifts] = useState([]);
   console.log(localhost);
-  const api = localhost ? "http://localhost:5000" : "https://lista-presentes-production.up.railway.app";
+  const api = localhost
+    ? "http://localhost:5000"
+    : "https://lista-presentes-production.up.railway.app";
   // Buscar produtos do backend
   const buscarProdutos = async () => {
-    const resposta = await fetch(api+"/api/produtos");
+    const resposta = await fetch(api + "/api/produtos");
     const dados = await resposta.json();
 
     // Garantir que todos os itens tenham um campo `links` definido como array
@@ -17,7 +21,11 @@ export default function App() {
 
     setGifts(dadosComLinks);
   };
-
+  const enviarMensagemWhatsapp = (produto) => {
+    const numero = "5547984223428";
+    const mensagem = `Olá! Gostaria de comprar o presente "${produto}" para o casamento. Poderia me enviar mais informações?`;
+    window.open(`https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`);
+  } 
   // Função para abrir múltiplos sites
   const abrirSites = (urls) => {
     if (Array.isArray(urls)) {
@@ -32,18 +40,18 @@ export default function App() {
     const gift = gifts.find((g) => g.id === id);
     if (gift.quantidade_atual < gift.quantidade_maxima) {
       const novaQuantidade = gift.quantidade_atual + 1;
-  
+
       try {
         const response = await fetch(`${api}/api/produtos/${id}`, {
           method: "PUT",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ quantidade_atual: novaQuantidade }),
         });
-  
+
         if (!response.ok) {
           throw new Error("Erro ao atualizar quantidade");
         }
-  
+
         // Atualiza o estado local
         const novoGifts = gifts.map((g) =>
           g.id === id ? { ...g, quantidade_atual: novaQuantidade } : g
@@ -54,8 +62,6 @@ export default function App() {
       }
     }
   };
-  
-   
 
   // Carregar produtos ao carregar o componente
   useEffect(() => {
@@ -97,12 +103,22 @@ export default function App() {
               alt={gift.nome}
               className="w-48 h-48 object-cover mx-auto mt-4 mb-4"
             />
-            <button
-              onClick={() => abrirSites(gift.link)}
-              className="text-blue-500 font-bold border-2 border-blue-500 m-2 hover:bg-blue-500 hover:text-white py-1 px-2 rounded-lg cursor-pointer w-full"
-            >
-              Compre aqui
-            </button>
+            {gift.quantidade_maxima >= 1 ? (
+              <button
+                onClick={() => abrirSites(gift.link)}
+                className="text-blue-500 font-bold border-2 border-blue-500 m-2 hover:bg-blue-500 hover:text-white py-1 px-2 rounded-lg cursor-pointer w-full"
+              >
+                Pedir pelo WhatsApp <FaWhatsapp />
+              </button>
+            ) : (
+              <button
+                onClick={() => enviarMensagemWhatsapp(gift.nome)}
+                className="text-blue-500 font-bold border-2 border-blue-500 m-2 hover:bg-blue-500 hover:text-white py-1 px-2 rounded-lg cursor-pointer w-full"
+              >
+                Compre aqui <FaCartArrowDown />
+              </button>
+            )}
+
             <button
               className="text-green-500 font-bold border-2 border-green-500 m-2 hover:bg-green-500 hover:text-white py-1 px-2 rounded-lg cursor-pointer w-full"
               onClick={() => adicionarPresente(gift.id)}
