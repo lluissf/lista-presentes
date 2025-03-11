@@ -25,7 +25,7 @@ export default function App() {
     const numero = "5547984223428";
     const mensagem = `Olá! Gostaria de comprar o presente "${produto}" para o enxoval. Poderia me enviar mais informações?`;
     window.open(`https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`);
-  } 
+  };
   // Função para abrir múltiplos sites
   const abrirSites = (urls) => {
     if (Array.isArray(urls)) {
@@ -105,14 +105,14 @@ export default function App() {
             />
             {gift.quantidade_maxima > 1 ? (
               <button
-                onClick={() => abrirSites(gift.link)}
+                onClick={() => enviarMensagemWhatsapp(gift.nome)}
                 className="flex items-center justify-center gap-2 text-blue-500 font-bold border-2 border-blue-500 m-2 hover:bg-blue-500 hover:text-white py-1 px-2 rounded-lg cursor-pointer w-full"
               >
                 Pedir pelo WhatsApp <FaWhatsapp />
               </button>
             ) : (
               <button
-                onClick={() => enviarMensagemWhatsapp(gift.nome)}
+                onClick={() => abrirSites(gift.link)}
                 className="flex items-center justify-center gap-2 text-blue-500 font-bold border-2 border-blue-500 m-2 hover:bg-blue-500 hover:text-white py-1 px-2 rounded-lg cursor-pointer w-full"
               >
                 Compre aqui <FaCartArrowDown />
