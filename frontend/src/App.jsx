@@ -23,7 +23,7 @@ export default function App() {
   };
   const enviarMensagemWhatsapp = (produto) => {
     const numero = "5547984223428";
-    const mensagem = `Olá! Gostaria de comprar o presente "${produto.nome}" para o enxoval. Poderia me enviar mais informações?\n\nLink do presente: ${produto.link}`;
+    const mensagem = `Olá! Gostaria de comprar o presente "${produto.nome}" para o enxoval. Poderia me enviar mais informações?\n\nLink do presente: ${produto.link.join("\n ")}`;
     window.open(`https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`);
   };
   // Função para abrir múltiplos sites
