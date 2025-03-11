@@ -117,17 +117,15 @@ export default function App() {
               >
                 Compre aqui <FaCartArrowDown />
               </button>
-            )}
-
+            )} 
             <button
-              className="text-green-500 font-bold border-2 border-green-500 m-2 hover:bg-green-500 hover:text-white py-1 px-2 rounded-lg cursor-pointer w-full"
+              className={`text-green-500 font-bold border-2 border-green-500 m-2 hover:bg-green-500 hover:text-white py-1 px-2 rounded-lg cursor-pointer w-full ${gift.quantidade_atual === gift.quantidade_maxima && "cursor-not-allowed disabled"}`}
               onClick={() => adicionarPresente(gift.id)}
             >
-              Marcar como comprado
+              {gift.quantidade_atual === gift.quantidade_maxima
+                ? "Comprado ✓"
+                : "Marcar como comprado"}
             </button>
-            {gift.quantidade_atual === gift.quantidade_maxima && (
-              <p className="text-green-600 font-bold mt-2">✓ Completo</p>
-            )}
           </div>
         ))}
       </div>
