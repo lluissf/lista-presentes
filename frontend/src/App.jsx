@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import {localhost}  from '../../config.json' ;
+import {localhost}  from '../../backend/config.json' ;
 export default function App() {
   const [gifts, setGifts] = useState([]);
   console.log(localhost);
