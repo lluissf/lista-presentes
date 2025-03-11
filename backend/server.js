@@ -2,10 +2,13 @@ const express = require("express");
 const cors = require("cors");
 const produtosRoutes = require("./routes/produtos");
 const app = express();
-const { localhost } = require("./config.json");
-const url = localhost
-  ? "http://localhost:5173"
-  : "https://lista-presentes-dusky.vercel.app";
+const {
+  localhost,
+  dominio_localhost_frontend,
+  dominio_producao_frontend,
+} = require("./config.json");
+
+const url = localhost ? dominio_localhost_frontend : dominio_producao_frontend;
 app.use(
   cors({
     origin: url,

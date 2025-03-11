@@ -1,13 +1,12 @@
 import { useState, useEffect } from "react";
-import { localhost } from "../../backend/config.json";
-import { FaWhatsapp, FaCartArrowDown } from "react-icons/fa";
+import { localhost, dominio_localhost_backend, dominio_producao_backend } from "../../backend/config.json";
+import { FaWhatsapp, FaCartArrowDown, FaInstagram, FaGithub } from "react-icons/fa";
 // Alteração para rodar a instância.
 export default function App() {
   const [gifts, setGifts] = useState([]);
-  console.log(localhost);
   const api = localhost
-    ? "http://localhost:5000"
-    : "https://lista-presentes-production.up.railway.app";
+    ? dominio_localhost_backend
+    : dominio_producao_frontend;
   // Buscar produtos do backend
   const buscarProdutos = async () => {
     const resposta = await fetch(api + "/api/produtos");
@@ -23,7 +22,11 @@ export default function App() {
   };
   const enviarMensagemWhatsapp = (produto) => {
     const numero = "5547984223428";
-    const mensagem = `Olá! Gostaria de comprar o presente "${produto.nome}" para o enxoval. Poderia me enviar mais informações?\n\nLink do presente: ${produto.link.join("\n ")}`;
+    const mensagem = `Olá! Gostaria de comprar o presente "${
+      produto.nome
+    }" para o enxoval. Poderia me enviar mais informações?\n\nLink do presente: ${produto.link.join(
+      "\n "
+    )}`;
     window.open(`https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`);
   };
   // Função para abrir múltiplos sites
@@ -88,7 +91,7 @@ export default function App() {
             className={`p-4 rounded-lg shadow-lg transition transform hover:scale-105 cursor-pointer text-center border-2 
               ${
                 gift.quantidade_atual === gift.quantidade_maxima
-                  ? "bg-green-200 border-green-500"
+                  ? "bg-green-200 border-green-500 "
                   : "bg-white border-gray-300"
               }`}
           >
@@ -117,10 +120,15 @@ export default function App() {
               >
                 Compre aqui <FaCartArrowDown />
               </button>
-            )} 
+            )}
             <button
-              className={`text-green-500 font-bold border-2 border-green-500 m-2 hover:bg-green-500 hover:text-white py-1 px-2 rounded-lg cursor-pointer w-full ${gift.quantidade_atual === gift.quantidade_maxima && "cursor-not-allowed disabled"}`}
+              className={`text-green-500 font-bold border-2 border-green-500 m-2  py-1 px-2 rounded-lg cursor-pointer w-full ${
+                gift.quantidade_atual === gift.quantidade_maxima
+                  ? "bg-gray-300 cursor-not-allowed"
+                  : "hover:bg-green-500 hover:text-white"
+              }`}
               onClick={() => adicionarPresente(gift.id)}
+              disabled={gift.quantidade_atual === gift.quantidade_maxima}
             >
               {gift.quantidade_atual === gift.quantidade_maxima
                 ? "Comprado ✓"
@@ -129,22 +137,30 @@ export default function App() {
           </div>
         ))}
       </div>
-      <footer className="mt-6 text-white text-center bg-black p-1 w-full fixed bottom-0">
-        Desenvolvido por:{" "}
-        <a
-          href="https://www.github.com/henrique-furtado47"
-          className="text-blue-500 hover:underline mr-2"
-        >
-          Henrique Furtado
-        </a>
-        {""}e{" "}
-        <a
-          href="https://www.github.com/lluissf"
-          className="text-blue-500 hover:underline"
-        >
-          Luis Felipe
-        </a>
-      </footer>
+      <footer className="bg-black text-white text-sm py-2 w-full fixed bottom-0">
+  <div className="max-w-6xl mx-auto px-4 flex justify-center items-center">
+    <span>Desenvolvido por: </span>
+    <a
+      href="https://www.github.com/henrique-furtado47"
+      className="text-blue-500 hover:underline mx-2 flex items-center gap-1"
+    >
+      Henrique Furtado  <FaGithub />
+    </a>
+    <span>e</span>
+    <a
+      onClick={() =>
+        abrirSites([
+          "https://www.github.com/lluissf",
+          "https://www.instagram.com/_.luissf/",
+        ])
+      }
+      className="text-blue-500 hover:text-white transition-all  mx-2 flex items-center gap-1"
+    >
+      Luis Felipe <FaGithub /> <FaInstagram />
+    </a>
+  </div>
+</footer>
+
     </div>
   );
 }

@@ -1,3 +1,7 @@
 {
-    "localhost": false
+    "localhost": false,
+    "dominio_localhost_frontend": "http://localhost:5174",
+    "dominio_producao_frontend": "https://lista-presentes-dusky.vercel.app",
+    "dominio_localhost_backend": "http://localhost:5000",
+    "dominio_producao_backend": "https://lista-presentes-production.up.railway.app"
 }
