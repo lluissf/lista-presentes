@@ -103,7 +103,7 @@ export default function App() {
               alt={gift.nome}
               className="w-48 h-48 object-cover mx-auto mt-4 mb-4"
             />
-            {length(gift.link) > 1 ? (
+            {gift.link.length > 1 ? (
               <button
                 onClick={() => enviarMensagemWhatsapp(gift)}
                 className="flex items-center justify-center gap-2 text-blue-500 font-bold border-2 border-blue-500 m-2 hover:bg-blue-500 hover:text-white py-1 px-2 rounded-lg cursor-pointer w-full"
