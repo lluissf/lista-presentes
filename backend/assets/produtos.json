@@ -53,7 +53,7 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/kit_saladeira.jpg",
-    "link": ["https://br.shp.ee/wtvPZN1"]
+    "link": ["https://br.shp.ee/qf3kLp9", "https://br.shp.ee/wtvPZN1"]
   },
   {
     "id": 8,
@@ -149,7 +149,20 @@
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/kit_ralador.jpg",
-    "link": ["https://br.shp.ee/qzbG4Ef"]
+    "link": [
+
+
+
+      "https://br.shp.ee/qzbG4Ef",
+
+
+      "https://br.shp.ee/r8jTR2u",
+
+
+      "https://br.shp.ee/MbCTyDw "
+
+
+    ]
   },
   {
     "id": 20,
