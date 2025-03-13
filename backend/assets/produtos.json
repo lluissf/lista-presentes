@@ -49,7 +49,7 @@
   },
   {
     "id": 7,
-    "nome": "Kit bacias",
+    "nome": "Kit bacias e peneiras",
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
     "imagem": "assets/kit_saladeira.jpg",
@@ -121,11 +121,11 @@
   },
   {
     "id": 16,
-    "nome": "Kit chuveiro",
+    "nome": "Kit banheiro",
     "quantidade_atual": 0,
     "quantidade_maxima": 1,
-    "imagem": "assets/kit_chuveiro.jpg",
-    "link": ["https://br.shp.ee/S8iFfAa"]
+    "imagem": "assets/banheiro.jpg",
+    "link": ["https://br.shp.ee/S8iFfAa", "https://br.shp.ee/eXJbEUk"]
   },
   {
     "id": 17,
@@ -142,20 +142,6 @@
     "quantidade_maxima": 2,
     "imagem": "assets/kit_toalha.jpg",
     "link": ["https://br.shp.ee/MrHjGCs"]
-  },
-  {
-    "id": 19,
-    "nome": "Ralador",
-    "quantidade_atual": 0,
-    "quantidade_maxima": 1,
-    "imagem": "assets/kit_ralador.jpg",
-    "link": [
-      "https://br.shp.ee/qzbG4Ef",
-
-      "https://br.shp.ee/r8jTR2u",
-
-      "https://br.shp.ee/MbCTyDw "
-    ]
   },
   {
     "id": 20,
@@ -316,7 +302,9 @@
     "quantidade_maxima": 1,
     "imagem": "assets/kit_medidas.jpg",
     "link": [
-      "https://br.shp.ee/r8jTR2u,https://br.shp.ee/MbCTyDw,https://br.shp.ee/qf3kLp9"
+      "https://br.shp.ee/r8jTR2u",
+      "https://br.shp.ee/MbCTyDw",
+      "https://br.shp.ee/qf3kLp9"
     ]
   },
   {
@@ -328,14 +316,5 @@
     "link": [
       "https://produto.mercadolivre.com.br/MLB-3963171261-aparador-buffet-madeira-duravel-estiloso-sala-quarto-home-_JM?attributes=COLOR_SECONDARY_COLOR:T2ZmIHdoaXRl"
     ]
-  },
-
-  {
-    "id": 42,
-    "nome": "Kit banheiro",
-    "quantidade_atual": 0,
-    "quantidade_maxima": 1,
-    "imagem": "assets/kit_banheiro.jpg",
-    "link": ["https://br.shp.ee/eXJbEUk"]
   }
 ]
