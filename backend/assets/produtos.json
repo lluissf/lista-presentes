@@ -10,7 +10,7 @@
   {
     "id": 2,
     "nome": "Kit colheres e facas para cozinhar",
-    "quantidade_atual": 0,
+    "quantidade_atual": 1,
     "quantidade_maxima": 1,
     "imagem": "assets/colher_utensilios.jpg",
     "link": ["https://br.shp.ee/pvk1zSE"]
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "nome": "Liquidificador",
-    "quantidade_atual": 0,
+    "quantidade_atual": 1,
     "quantidade_maxima": 1,
     "imagem": "assets/liquidificador.jpg",
     "link": ["https://br.shp.ee/8QNcm4D"]
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "nome": "Potes variados",
-    "quantidade_atual": 0,
+    "quantidade_atual": 1,
     "quantidade_maxima": 1,
     "imagem": "assets/potes_variados.jpg",
     "link": ["https://br.shp.ee/cH5yduc"]
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "nome": "Chaleira elétrica",
-    "quantidade_atual": 0,
+    "quantidade_atual": 1,
     "quantidade_maxima": 1,
     "imagem": "assets/chaleira.jpg",
     "link": ["https://br.shp.ee/PKit69d"]
@@ -58,7 +58,7 @@
   {
     "id": 8,
     "nome": "Microondas (prata espelhado)",
-    "quantidade_atual": 0,
+    "quantidade_atual": 1,
     "quantidade_maxima": 1,
     "imagem": "assets/microondas.jpg",
     "link": ["https://br.shp.ee/csiThKG"]
@@ -82,7 +82,7 @@
   {
     "id": 11,
     "nome": "Forno (prata espelhado)",
-    "quantidade_atual": 0,
+    "quantidade_atual": 1,
     "quantidade_maxima": 1,
     "imagem": "assets/forno.jpg",
     "link": ["https://br.shp.ee/u4FBywo"]
@@ -106,7 +106,7 @@
   {
     "id": 14,
     "nome": "Kit banheiro lavabo",
-    "quantidade_atual": 0,
+    "quantidade_atual": 1,
     "quantidade_maxima": 1,
     "imagem": "assets/kit_lavabo.jpg",
     "link": ["https://br.shp.ee/MKsrLoG"]
@@ -114,7 +114,7 @@
   {
     "id": 15,
     "nome": "Ferro de passar roupa",
-    "quantidade_atual": 0,
+    "quantidade_atual": 1,
     "quantidade_maxima": 1,
     "imagem": "assets/ferro.jpg",
     "link": ["https://br.shp.ee/2xzfLQc"]
@@ -138,7 +138,7 @@
   {
     "id": 18,
     "nome": "Toalha de banho e rosto (2)",
-    "quantidade_atual": 0,
+    "quantidade_atual": 2,
     "quantidade_maxima": 2,
     "imagem": "assets/kit_toalha.jpg",
     "link": ["https://br.shp.ee/MrHjGCs"]
@@ -162,7 +162,7 @@
   {
     "id": 22,
     "nome": "Edredom",
-    "quantidade_atual": 0,
+    "quantidade_atual": 1,
     "quantidade_maxima": 1,
     "imagem": "assets/edredom.jpg",
     "link": ["https://br.shp.ee/Ln29HC1"]
@@ -226,7 +226,7 @@
   {
     "id": 30,
     "nome": "Fruteira",
-    "quantidade_atual": 0,
+    "quantidade_atual": 1,
     "quantidade_maxima": 1,
     "imagem": "assets/fruteira.jpg",
     "link": ["https://br.shp.ee/XfhwgQD"]
@@ -234,7 +234,7 @@
   {
     "id": 31,
     "nome": "Kit boleira, jarra açucareira, manteigueira, queijeira",
-    "quantidade_atual": 0,
+    "quantidade_atual": 1,
     "quantidade_maxima": 1,
     "imagem": "assets/kit_boleira.jpg",
     "link": ["https://br.shp.ee/dhjxPVx"]
@@ -258,7 +258,7 @@
   {
     "id": 34,
     "nome": "Lixeiro (2)",
-    "quantidade_atual": 0,
+    "quantidade_atual": 2,
     "quantidade_maxima": 2,
     "imagem": "assets/lixeira.jpg",
     "link": ["https://br.shp.ee/24mmBD6"]
